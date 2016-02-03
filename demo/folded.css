@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* Master Styling. */
+.folded-wrap {
+  width: 100%;
+}
+
+/* Toggles */
+.folded-toggle {
+  width: 100%;
+  min-height: 50px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #B2D235;
+  transition: box-shadow 0.3s;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+.folded-toggle-active {
+  box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+}
+.folded-content {
+  padding: 10px;
+  max-width: 1024px;
+}
+
+/* Tabs */
+.folded-tab-wrap {
+  width: 100%;
+  text-align: center;
+  background-color: #f06100;
+}
+.folded-tab {
+  max-width: 100px;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0px;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.3s;
+}
+.folded-tab-active {
+  box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+}
+.tabbed-accordion-wrap {
+  width: 100%;
+}
+
+/* Buttons */
+.folded-bttn-wrap {
+  text-align: center;
+  width: 100%;
+}
+.folded-bttn, .scatt-bttn {
+  width: 150px;
+  height: 47px;
+  background-color: #389ff4;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.4);
+  transition: box-shadow 0.3s;
+  color: #FFFFFF;
+  line-height: 47px;
+  cursor: pointer;
+}
+.folded-bttn-active, .scatt-bttn-active {
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.4);
+}

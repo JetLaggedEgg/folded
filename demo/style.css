@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0px;
+}
+
+html {
+  font-family: Arial, sans-serif, monospace;
+}
+.page-wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+}
