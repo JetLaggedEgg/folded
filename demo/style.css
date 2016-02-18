@@ -2,9 +2,11 @@
   padding: 0;
   margin: 0px;
 }
-
 html {
   font-family: Arial, sans-serif, monospace;
+}
+body {
+  overflow-y: scroll;
 }
 .page-wrap {
   max-width: 1024px;
