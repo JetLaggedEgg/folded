@@ -12,20 +12,21 @@ folded is a javascript library that allows you to instatiate an object to deal w
 ### Setup
 
 In order to create a new accordion family you must instantiate a new `folded` object, this can be done like so.
-
-    var accordionFamily = new folded;
+```javascript
+  var accordionFamily = new folded;
+```
 
 This creates a new object. The init function in this object is used to setup the accordions - call it like so:
-
-    accordionFamily.init();
-
+```javascript
+  accordionFamily.init();
+```
 This does nothing yet, unless you use the default classes for the default stacked accordions. I plan to add complete customisability to this library but for now there is this - you may feed the init function an object with settings you wish, this is how you would call init instead.
-
-    accordionFamily.init({
-        aparent: "laptop-details",
-        atype: "tabbed"
-    });
-
+```javascript
+  accordionFamily.init({
+    aparent: "laptop-details",
+    atype: "tabbed"
+  });
+```
 In this example folded will look for an element in the HTML that has the `aparent` class and then setup a tabbed content system.
 
 ### Plans
